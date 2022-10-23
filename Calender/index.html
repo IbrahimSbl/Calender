@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <title>Trying first program</title>
+</head>
+<body>
+    <header>
+        <div id="date">
+            <div id="day-now"></div>
+            <div id="rest">
+                <div id="day-name"></div>
+                <div id="month-year"></div>
+            </div>
+            <div id="today">Today</div>
+
+        </div>
+        <div id="nav-container">
+            <nav>
+                <button><img src="./pics/home.png" alt="home" id="home"></button>
+                <button><img src="./pics/search.png" alt="search" id="search"></button>
+                <div id="scrolldown">
+                    <button><img src="./pics/events.png" alt="events" id="events"></button>
+                    <div id="Block-1" style="display: none;">
+                        
+                       <!--
+                           <div id="ev">
+                        <p class="event-name">study Final exam</p>
+                        <p class="duration">9:00 till 9:30</p>
+                        </div>
+                        <div id="ev">
+                            <p class="event-name">study Final exam</p>
+                            <p class="duration">9:00 till 9:30</p>
+                        </div>
+                       --> 
+            
+                    </div>        
+                </div>  
+                <button><img src="./pics/addEvent.png" alt="addEvent" id="addEvent"></button>
+            </nav>
+        </div>           
+    </header>
+    <div id="try">
+      
+    <div id="Block-2">
+    <div>
+      <div id="Month" >
+        <img src="./pics/previous.png" alt="previous" id="previous">
+        <p id="M/Y" style="text-align: center;">Enter here</p>
+        <img src="./pics/next.png" alt="next" id="next">
+    </div>
+    <div id="search-bar" style="display: none;">
+        <input type="number" name="day" required = "required" placeholder="DD" id="day"/>
+        <input type="number" name="month" required = "required" placeholder="MM" id="month"/>
+        <input type="number" name="year" required = "required" placeholder="YYYY" id="year"/>
+        <button id="goDate" type="submit">SET</button>
+        <button id="reset">Reset</button>
+    </div>  
+    <table id="container-2">
+       
+        <tr id="thead" >
+            <td>Mon</td>
+            <td>Tues</td>
+            <td>Wed</td>
+            <td>Thurs</td>
+            <td>Fri</td>
+            <td>Sat</td>
+            <td>Sun</td>
+
+
+
+        </tr>            
+    
+
+
+        <tr class="inside">
+            
+            <td id="m1" >1</td>
+            <td id="t1">2</td>
+            <td id="w1">3</td>
+            <td id="h1">4</td>
+            <td id="f1">5</td>
+            <td id="s1">6</td>
+            <td id="u1">6</td>
+        </tr>
+        <tr class="inside">
+            <td id="m2"></td>
+            <td id="t2"></td>
+            <td id="w2"></td>
+            <td id="h2"></td>
+            <td id="f2"></td>
+            <td id="s2"></td>
+            <td id="u2"></td>
+        </tr>
+        <tr class="inside">
+            <td id="m3"></td>
+            <td id="t3"></td>
+            <td id="w3"></td>
+            <td id="h3"></td>
+            <td id="f3"></td>
+            <td id="s3"></td>
+            <td id="u3"></td>
+        </tr>
+        <tr class="inside">
+            <td id="m4"></td>
+            <td id="t4"></td>
+            <td id="w4"></td>
+            <td id="h4"></td>
+            <td id="f4"></td>
+            <td id="s4"></td>
+            <td id="u4"></td>
+        </tr>
+        <tr class="inside">
+            <td id="m5"></td>
+            <td id="t5"></td>
+            <td id="w5"></td>
+            <td id="h5"></td>
+            <td id="f5"></td>
+            <td id="s5"></td>
+            <td id="u5"></td>
+        </tr>
+        <tr class="inside">
+            <td id="m6"></td>
+            <td id="t6"></td>
+            <td id="w6"></td>
+            <td id="h6"></td>
+            <td id="f6"></td>
+            <td id="s6"></td>
+            <td id="u6"></td>
+        </tr>            
+    
+
+
+
+    </table>
+    </div>
+    
+   
+
+    
+    </div>
+
+  
+    </div>
+    
+    <div id="Block-1-2" style="display: none;">
+        <h2 style="color: white;text-align: center;"><span>My Schedule</span> </h2>
+        <div>
+            
+            
+
+        </div>
+        
+
+    </div> 
+
+    <script src="script2.js"></script>
+    <script src="index.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>

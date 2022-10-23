@@ -1,0 +1,159 @@
+
+
+
+body{
+    background-color: rgb(46, 49, 51);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    max-width: 100%;
+    position: sticky;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#date{
+    color:#fff;
+    display: grid;
+    grid-template-columns: 70px 140px 70px;
+    justify-content: left;
+    padding-left: 10px;
+}
+#rest{
+    display:flex;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: 1em;
+}
+#today{
+    margin-top: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 15px 2px 15px;
+    background-color: #dc4344;
+}
+#day-now{
+    font-size: 2.5em;
+}
+#try{
+    display: flex;
+    justify-content: center;
+}
+#scrolldown{
+    position: relative;
+    display: inline-block;
+}
+#Block-1{
+    display: none;
+    position:absolute;
+    width:350px;
+    transform: translate(-50%,0%);
+}
+#Block-1 >div{
+    background-color: #dc4344;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    padding: 3px 10px 3px 10px;
+    margin: 20px;
+
+}
+#scrolldown >button{
+    border: none;
+    background-color: rgb(46, 49, 51);
+}
+
+nav{
+    border-radius: 10px;    
+    width: 350px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+nav > button{
+    max-width: 50px;
+    max-height: 50px;
+    background-color: rgb(46, 49, 51);
+    border: none;
+}
+button > img{
+    max-width: 50px;
+    max-height: 50px;
+}
+ button > img:hover{
+    background-color: #dc4344;
+}
+#btn1:hover{
+    background-color: #dc4344;
+}
+#btn1 > img :hover{
+    background-color: #dc4344;
+}
+#Block-2{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
+#Month{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    background-color: rgb(220 ,67 ,68);
+    
+    width: 600px;
+}
+#Month img:hover{
+    background-color: rgb(211, 93, 93);
+}
+#container-2{
+    color:white;
+    width:600px;
+    min-height: 500px;
+}
+.inside > td{
+    border: 1px solid rgb(248, 238, 238);
+}
+td{
+    width: 90px;
+    
+    border-radius: 10px;
+}
+td:hover{
+    background-color: #dc4344;
+    
+}
+
+
+#search-bar{
+    
+    background-color: #fff;
+    
+    
+    
+}
+#addEvent:hover{
+    background-color: #dc4344;
+}
+
+input{
+    border:1px #dc4344 solid;
+}
+button{
+    background-color: rgb(52, 61, 66);
+    color:#fff
+}
+@media only screen and (max-width: 1340px){
+    
+header{
+    background-color: rgb(46, 49, 51);
+    width: 100%;
+    position: sticky;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+}
